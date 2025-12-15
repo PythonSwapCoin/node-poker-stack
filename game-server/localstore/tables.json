@@ -1,0 +1,276 @@
+{
+    "a1a8d570-d921-11f0-a4ca-598f031bea10": {
+        "id": "a1a8d570-d921-11f0-a4ca-598f031bea10",
+        "tid": "9cf1dd10-d921-11f0-a4ca-598f031bea10",
+        "smallBlind": 50,
+        "bigBlind": 100,
+        "minBuyIn": 100,
+        "maxBuyIn": 10000,
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "gameMode": "normal",
+        "board": [
+            "TC",
+            "QC",
+            "8D",
+            "KC"
+        ],
+        "creator": "02666ae0-d921-11f0-ace6-297eadf08721",
+        "players": [
+            {
+                "playerName": "bot8",
+                "id": "96f11180-d91f-11f0-8b10-b9fca6489247",
+                "chips": 893,
+                "folded": true,
+                "allIn": false,
+                "talked": false,
+                "cards": [
+                    "7H",
+                    "9H"
+                ]
+            },
+            {
+                "playerName": "luciano",
+                "id": "02666ae0-d921-11f0-ace6-297eadf08721",
+                "chips": 950,
+                "folded": true,
+                "allIn": false,
+                "talked": false,
+                "cards": [
+                    "6S",
+                    "5S"
+                ]
+            },
+            {
+                "playerName": "bot7",
+                "id": "96e06fb0-d91f-11f0-8b10-b9fca6489247",
+                "chips": 869,
+                "folded": true,
+                "allIn": false,
+                "talked": true,
+                "cards": [
+                    "2H",
+                    "9C"
+                ]
+            },
+            {
+                "playerName": "bot6",
+                "id": "96d79610-d91f-11f0-8b10-b9fca6489247",
+                "chips": 1288,
+                "folded": true,
+                "allIn": false,
+                "talked": true,
+                "cards": [
+                    "3H",
+                    "QS"
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "action": "call",
+                "playerName": "bot6",
+                "amount": 100
+            },
+            {
+                "action": "call",
+                "playerName": "bot8",
+                "amount": 100
+            },
+            {
+                "action": "fold",
+                "playerName": "luciano"
+            },
+            {
+                "action": "call",
+                "playerName": "bot7",
+                "amount": 100
+            },
+            {
+                "action": "bet",
+                "playerName": "bot6",
+                "amount": 7
+            },
+            {
+                "action": "call",
+                "playerName": "bot8",
+                "amount": 7
+            },
+            {
+                "action": "bet",
+                "playerName": "bot7",
+                "amount": 20
+            },
+            {
+                "action": "bet",
+                "playerName": "bot6",
+                "amount": 31
+            },
+            {
+                "action": "fold",
+                "playerName": "bot8"
+            },
+            {
+                "action": "call",
+                "playerName": "bot7",
+                "amount": 31
+            },
+            {
+                "action": "bet",
+                "playerName": "bot6",
+                "amount": 170
+            },
+            {
+                "action": "fold",
+                "playerName": "bot7"
+            }
+        ],
+        "gameWinners": [
+            {
+                "playerName": "bot6",
+                "id": "96d79610-d91f-11f0-8b10-b9fca6489247",
+                "chips": 1288,
+                "amount": 589
+            }
+        ],
+        "created": 1765739942992
+    },
+    "c66e2220-d921-11f0-a4ca-598f031bea10": {
+        "id": "c66e2220-d921-11f0-a4ca-598f031bea10",
+        "tid": "9cf1dd10-d921-11f0-a4ca-598f031bea10",
+        "smallBlind": 50,
+        "bigBlind": 100,
+        "minBuyIn": 100,
+        "maxBuyIn": 10000,
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "gameMode": "normal",
+        "board": [
+            "JD",
+            "7D",
+            "4D",
+            "9D",
+            "JS"
+        ],
+        "creator": "02666ae0-d921-11f0-ace6-297eadf08721",
+        "players": [
+            {
+                "playerName": "luciano",
+                "id": "02666ae0-d921-11f0-ace6-297eadf08721",
+                "chips": 950,
+                "folded": true,
+                "allIn": false,
+                "talked": false,
+                "cards": [
+                    "6H",
+                    "KC"
+                ]
+            },
+            {
+                "playerName": "bot8",
+                "id": "96f11180-d91f-11f0-8b10-b9fca6489247",
+                "chips": 900,
+                "folded": true,
+                "allIn": false,
+                "talked": true,
+                "cards": [
+                    "2D",
+                    "QS"
+                ]
+            },
+            {
+                "playerName": "bot7",
+                "id": "96e06fb0-d91f-11f0-8b10-b9fca6489247",
+                "chips": 0,
+                "folded": false,
+                "allIn": true,
+                "talked": true,
+                "cards": [
+                    "TC",
+                    "4H"
+                ]
+            },
+            {
+                "playerName": "bot6",
+                "id": "96d79610-d91f-11f0-8b10-b9fca6489247",
+                "chips": 2100,
+                "folded": true,
+                "allIn": true,
+                "talked": true,
+                "cards": [
+                    "TD",
+                    "4C"
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "action": "fold",
+                "playerName": "luciano"
+            },
+            {
+                "action": "call",
+                "playerName": "bot8",
+                "amount": 100
+            },
+            {
+                "action": "call",
+                "playerName": "bot7",
+                "amount": 100
+            },
+            {
+                "action": "call",
+                "playerName": "bot6",
+                "amount": 100
+            },
+            {
+                "action": "call",
+                "playerName": "bot8",
+                "amount": 0
+            },
+            {
+                "action": "call",
+                "playerName": "bot7",
+                "amount": 0
+            },
+            {
+                "action": "bet",
+                "playerName": "bot6",
+                "amount": 262
+            },
+            {
+                "action": "fold",
+                "playerName": "bot8"
+            },
+            {
+                "action": "bet",
+                "playerName": "bot7",
+                "amount": 319
+            },
+            {
+                "action": "bet",
+                "playerName": "bot6",
+                "amount": 505
+            },
+            {
+                "action": "allin",
+                "playerName": "bot7",
+                "amount": 581
+            },
+            {
+                "action": "allin",
+                "playerName": "bot6",
+                "amount": 395
+            }
+        ],
+        "gameWinners": [
+            {
+                "playerName": "bot6",
+                "id": "96d79610-d91f-11f0-8b10-b9fca6489247",
+                "chips": 2100,
+                "amount": 2100
+            }
+        ],
+        "created": 1765748187331
+    }
+}

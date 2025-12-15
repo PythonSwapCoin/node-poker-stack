@@ -1,3 +1,6 @@
+// Old socket.io 0.9.x expects process.EventEmitter; modern Node removed it.
+process.EventEmitter = require('events').EventEmitter;
+
 var pomelo = require('pomelo');
 var routeUtil = require('./app/util/routeUtil');
 var abuseFilter = require('./app/servers/game/filter/abuseFilter');

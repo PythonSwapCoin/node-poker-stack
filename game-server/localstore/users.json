@@ -1,0 +1,112 @@
+{
+    "96875330-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96875330-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot1",
+        "password": "bot1",
+        "email": "bot1@poker-stack.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014115
+    },
+    "96a1e010-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96a1e010-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot2",
+        "password": "bot2",
+        "email": "bot2@poker-stack.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014289
+    },
+    "96c398e0-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96c398e0-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot3",
+        "password": "bot3",
+        "email": "bot3@poker-stack.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014510
+    },
+    "96c8c900-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96c8c900-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot4",
+        "password": "bot4",
+        "email": "bot4@poker-stack.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014544
+    },
+    "96d35050-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96d35050-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot5",
+        "password": "bot5",
+        "email": "bot5@poker-stack.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014613
+    },
+    "96d79610-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96d79610-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot6",
+        "password": "bot6",
+        "email": "bot6@poker-stack.com",
+        "chips": 100388,
+        "wins": 2,
+        "largestWin": 2100,
+        "friends": [],
+        "created": 1765739014641
+    },
+    "96e06fb0-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96e06fb0-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot7",
+        "password": "bot7",
+        "email": "bot7@poker-stack.com",
+        "chips": 97869,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014699
+    },
+    "96f11180-d91f-11f0-8b10-b9fca6489247": {
+        "id": "96f11180-d91f-11f0-8b10-b9fca6489247",
+        "username": "bot8",
+        "password": "bot8",
+        "email": "bot8@poker-stack.com",
+        "chips": 98793,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739014808
+    },
+    "2d94e940-d920-11f0-8791-57fb93576498": {
+        "id": "2d94e940-d920-11f0-8791-57fb93576498",
+        "username": "Luciano",
+        "password": "Mmendoza1!",
+        "email": "lucianoruli@hotmail.com",
+        "chips": 100000,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739267541
+    },
+    "02666ae0-d921-11f0-ace6-297eadf08721": {
+        "id": "02666ae0-d921-11f0-ace6-297eadf08721",
+        "username": "luciano",
+        "password": "Mmendoza1!",
+        "email": "lucianoruli@hotmail.com",
+        "chips": 99950,
+        "wins": 0,
+        "largestWin": 0,
+        "friends": [],
+        "created": 1765739624590
+    }
+}

@@ -11,5 +11,8 @@
     "node-uuid": "^1.4.1",
     "pomelo-logger": "^0.1.6",
     "redis": "^0.12.1"
+  },
+  "overrides": {
+    "pomelo-admin": "1.0.1"
   }
 }

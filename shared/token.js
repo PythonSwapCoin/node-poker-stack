@@ -1,5 +1,13 @@
 var crypto = require('crypto');
 
+function getKeyAndIv(pwd) {
+  // Derive a 32-byte key and deterministic 16-byte IV from the password.
+  // This replaces deprecated createCipher/createDecipher APIs removed in modern Node.
+  var key = crypto.createHash('sha256').update(String(pwd)).digest();
+  var iv = key.subarray(0, 16);
+  return { key: key, iv: iv };
+}
+
 /**
  * Create token by uid. Encrypt uid and timestamp to get a token.
  * 
@@ -10,7 +18,8 @@ var crypto = require('crypto');
  */
 module.exports.create = function(uid, timestamp, pwd){
 	var msg = uid + '|' + timestamp;
-	var cipher = crypto.createCipher('aes256', pwd);
+	var keyIv = getKeyAndIv(pwd);
+	var cipher = crypto.createCipheriv('aes-256-cbc', keyIv.key, keyIv.iv);
 	var enc = cipher.update(msg, 'utf8', 'hex');
 	enc += cipher.final('hex');
 	return enc;
@@ -24,7 +33,8 @@ module.exports.create = function(uid, timestamp, pwd){
  * @return {Object}  uid and timestamp that exported from token. null for illegal token.     
  */
 module.exports.parse = function(token, pwd){
-	var decipher = crypto.createDecipher('aes256', pwd);
+	var keyIv = getKeyAndIv(pwd);
+	var decipher = crypto.createDecipheriv('aes-256-cbc', keyIv.key, keyIv.iv);
 	var dec;
 	try{
 		dec = decipher.update(token, 'hex', 'utf8');

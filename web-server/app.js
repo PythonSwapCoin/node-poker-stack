@@ -1,3 +1,27 @@
+// Compatibility shim for very old express/send on modern Node (res._headers no longer exists)
+var http = require('http');
+if (!Object.getOwnPropertyDescriptor(http.OutgoingMessage.prototype, '_headers')) {
+  Object.defineProperty(http.OutgoingMessage.prototype, '_headers', {
+    configurable: true,
+    enumerable: false,
+    get: function(){ return this.getHeaders(); },
+    set: function(){} // ignore writes
+  });
+}
+if (!Object.getOwnPropertyDescriptor(http.OutgoingMessage.prototype, '_headerNames')) {
+  Object.defineProperty(http.OutgoingMessage.prototype, '_headerNames', {
+    configurable: true,
+    enumerable: false,
+    get: function(){
+      var headers = this.getHeaders();
+      var names = {};
+      Object.keys(headers).forEach(function(k){ names[k.toLowerCase()] = k; });
+      return names;
+    },
+    set: function(){}
+  });
+}
+
 var express = require('express');
 var app = express();
 
